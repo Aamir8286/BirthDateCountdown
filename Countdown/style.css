@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/Countdown/unsplash.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Coda Caption", sans-serif;
+  color: #e6e2cf;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+}
+.big-text {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 6rem;
+  padding: 10px;
+  margin: 20px;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+}
+.count > span {
+  align-self: center;
+  font-size: 30px;
+}
